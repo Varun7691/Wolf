@@ -21,7 +21,6 @@ import com.varun.wolf.R;
 public class MainFragment extends Fragment {
 
     EditText search;
-
     ListView mainList;
 
     @Nullable
@@ -43,8 +42,6 @@ public class MainFragment extends Fragment {
                 return false;
             }
         });
-
-
 
 
         return rootView;
